@@ -191,3 +191,6 @@
 .footer {
 	background-color: darkgray;
 }
+
+/*here were are in the map*/
+#mapid { height: 750px; }
