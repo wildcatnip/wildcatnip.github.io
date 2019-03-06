@@ -195,6 +195,7 @@
 * {
   box-sizing: border-box;
 }
+
 h1 {
   display: flex;
 }
@@ -210,6 +211,20 @@ h1::after {margin-left: .3em}
 
 .cadre{
   background-color: #26bf93;
-  margin:auto;
-  padding:auto;
+  font-size: 100%;
+  color: white;
+  width:25%;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  border-radius:5px;
+}
+
+.cadrerestaurant{
+  background-color: #26bf93;
+  font-size: 100%;
+  color: white;
+  width:40%;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  border-radius:5px;
 }
