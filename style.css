@@ -191,3 +191,25 @@
 .footer {
 	background-color: darkgray;
 }
+
+* {
+  box-sizing: border-box;
+}
+h1 {
+  display: flex;
+}
+h1::before,
+h1::after {
+  content: "";
+  flex:1;
+  align-self: center;
+  border-bottom: 1px solid CurrentColor;
+}
+h1::before {margin-right: .3em}
+h1::after {margin-left: .3em}
+
+.cadre{
+  background-color: #26bf93;
+  margin:auto;
+  padding:auto;
+}
