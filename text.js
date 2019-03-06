@@ -1,3 +1,23 @@
+	//Here is the functionality of the slider//
+
+	wow = new WOW(
+		{
+		  animateClass: 'animated',
+		  offset:       100,
+		  callback:     function(box) {
+			console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+		  }
+		}
+	  );
+	  wow.init();
+	  document.getElementById('moar').onclick = function() {
+		var section = document.createElement('section');
+		section.className = 'section--purple wow fadeInDown';
+		this.parentNode.insertBefore(section, this);
+	  };
+	
+	//Here is the fantastik part of code for the functionality of the map//
+
 			// On initialise la latitude et la longitude de Paris (centre de la carte)
 			var lat = 48.852969;
 			var lon = 2.349903;
