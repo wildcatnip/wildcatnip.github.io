@@ -213,3 +213,13 @@ h1::after {margin-left: .3em}
   margin:auto;
   padding:auto;
 }
+
+.form{
+	text-align: left;
+	min-width: 40%;
+}
+
+.btn {
+	font-weight: bold;
+	cursor: pointer;
+}
