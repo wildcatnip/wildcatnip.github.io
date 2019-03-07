@@ -85,4 +85,25 @@ h1{
 
 .card-title{
   font-weight: bold;
+
+/* --------------------------------siz of log (so many nantes) + navbar------------------------------------ */
+.logo-size {
+  width: 40%;
+}
+
+.textnavbar {
+  font-size: 1.5em;
+}
+.textactive {
+font-weight: bold;
+}
+.newcolorbutton {
+  color: #26bf93;
+  border: solid 1px #26bf93;
+}
+.newcolorbutton:hover {
+  background-color: #26bf93;
+}
+.search-right {
+  justify-content: end;
 }

@@ -16,62 +16,59 @@
 </head>
 
 <body>
+  <!--Start navbar-->
   <div class="container-fluid">
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">So Many Nantes</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="row pt-5 my-5 justify-content-center"><img src="images/so-many-nantes3.png" alt="..."></div>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav pr-4">
-            <a class="nav-item nav-link" href="#">Home</a>
-            <a class="nav-item nav-link" href="#">Gallery</a>
-            <a class="nav-item nav-link" href="#">Culture</a>
-            <a class="nav-item nav-link" href="#">Sport</a>
-            <a class="nav-item nav-link" href="#">Resto-Bar</a>
-            <a class="nav-item nav-link" href="#">Carte</a>
-            <a class="nav-item nav-link" href="#">Contact us</a>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav pr-4 textnavbar">
+            <a class="nav-item nav-link textactive" style="color: #26bf93;" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="pageGallery.html" style="color: black;">Gallery</a>
+            <a class="nav-item nav-link" href="pageCulture.html" style="color: black;">Culture</a>
+            <a class="nav-item nav-link" href="pageSport.html" style="color: black;">Sport</a>
+            <a class="nav-item nav-link" href="pageBar.html" style="color: black;">Resto-Bar</a>
+            <a class="nav-item nav-link" href="map.html" style="color: black;">Carte</a>
+            <a class="nav-item nav-link" href="pageContact.html" style="color: black;">Contact us</a>
           </div>
-          <form class="form-inline">
+          <form class="form-inline search-right justify-content-end">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-success my-2 my-sm-0 newcolorbutton" type="submit">Search</button>
           </form>
         </div>
       </nav>
     </header>
   </div>
+  <!--End navbar-->
+
 
   <!-- this is the slider 2 of the site-->
-
-  <div class="container">
-    <div class="row heading-box">
-      <h2 class="text-center">Bootstrap 4 slider with Text Animation</h2>
-    </div>
-  </div>
-  <section>
-    <div id="slider-animation" class="carousel slide" data-ride="carousel">
-
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#slider-animation" data-slide-to="0" class="active"></li>
-        <li data-target="#slider-animation" data-slide-to="1"></li>
-        <li data-target="#slider-animation" data-slide-to="2"></li>
-      </ul>
-
-      <!-- The slideshow -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/veloNantes.png" class="carousel-img w-100" alt="velo by night">
-          <div class="text-box">
-            <h2 class="wow slideInRight" data-wow-duration="2s">Welcome in Nantes</h2>
-            <p class="wow slideInLeft" data-wow-duration="2s">There is now an abundance of readable dummy texts. These
-              are usually used when a text is required purely to fill a space. </p>
+     <div class="container">
+      </div>
+      <section>
+          <div id="slider-animation" class="carousel slide" data-ride="carousel">
+      
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#slider-animation" data-slide-to="0" class="active"></li>
+          <li data-target="#slider-animation" data-slide-to="1"></li>
+          <li data-target="#slider-animation" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/veloNantes.png" class="carousel-img w-100" alt="velo by night">
+              <div class="text-box">
+                  <h2 class="wow slideInRight" data-wow-duration="2s">Welcome in Nantes</h2>
+                  <p class="wow slideInLeft" data-wow-duration="2s">There is now an abundance of readable dummy texts. These are usually used when a text is required purely to fill a space. </p>
+              </div>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/dragon.jpg" class="carousel-img w-100" alt="Nantes by night">
+          <div class="carousel-item">
+            <img src="images/dragon.jpg" class="carousel-img w-100" alt="Nantes by night">
           <div class="text-box">
             <h2 class="wow slideInUp" data-wow-duration="4s">Welcome in Nantes</h2>
             <p class="wow fadeInDown" data-wow-duration="4s">There is now an abundance of readable dummy texts. These

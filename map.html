@@ -10,33 +10,38 @@
   <link rel="stylesheet" href="style.css">
   <title>So Many Nantes</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
 </head>
 
 <body>
+  <!--Start navbar-->
+  <div class="container-fluid">
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">So Many Nantes</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="row pt-5 my-5 justify-content-center"><img src="images/so-many-nantes3.png" alt="..."></div>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav pr-4">
-            <a class="nav-item nav-link" href="#">Home</a>
-            <a class="nav-item nav-link" href="#">Gallery</a>
-            <a class="nav-item nav-link" href="#">Culture</a>
-            <a class="nav-item nav-link" href="#">Sport</a>
-            <a class="nav-item nav-link" href="#">Resto-Bar</a>
-            <a class="nav-item nav-link" href="#">Carte</a>
-            <a class="nav-item nav-link" href="#">Contact us</a>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav pr-4 textnavbar">
+            <a class="nav-item nav-link" style="color: black;" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="pageGallery.html" style="color: black;">Gallery</a>
+            <a class="nav-item nav-link" href="pageCulture.html" style="color: black;">Culture</a>
+            <a class="nav-item nav-link" href="pageSport.html" style="color: black;">Sport</a>
+            <a class="nav-item nav-link" href="pageBar.html" style="color: black;">Resto-Bar</a>
+            <a class="nav-item nav-link textactive" href="map.html" style="color: #26bf93;">Carte</a>
+            <a class="nav-item nav-link" href="pageContact.html" style="color: black;">Contact us</a>
           </div>
-          <form class="form-inline">
+          <form class="form-inline search-right justify-content-end">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-success my-2 my-sm-0 newcolorbutton" type="submit">Search</button>
           </form>
         </div>
       </nav>
     </header>
+  </div>
+  <!--End navbar-->
 
     <!-- this is the map of the site-->
   
