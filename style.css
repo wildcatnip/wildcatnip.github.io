@@ -62,8 +62,14 @@ h1::after {margin-left: .3em}
 	font-weight: bold;
 	cursor: pointer;
 }
-/*here were are in the map*/
-#mapid { height: 750px; }
+here were are in the map
+#map { height: 750px; }
+
+
+
+
+
+/*vignette*/
 .cadrerestaurant{
   background-color: #26bf93;
   font-size: 100%;
