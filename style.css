@@ -15,15 +15,32 @@
   filter: brightness(50%);
 
 }
- /* here is the footer*/
+ /* here is the footer style*/
 .social img {
-	width: 50px;
-  height : 50px;
-	filter: grayscale(1);
-	-webkit-filter: grayscale(1);
+	max-width:50px;
+  height: 50px;
 }
 .footer {
-	background-color: darkgray;
+  background-color: #1B181C;
+  text-align: center;
+}
+footer a{
+  color: #fff;
+  
+}
+footer a:hover {
+  color: #26bf93;
+  text-decoration: none;
+}
+
+li {
+  
+}
+.separate {
+  list-style-type: none;
+  border-right: 1px solid #fff;
+  margin-left: 0.8em;
+  padding-right: 0.8em;
 }
 
 * {
