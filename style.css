@@ -43,11 +43,22 @@ h1::after {
 h1::before {margin-right: .3em}
 h1::after {margin-left: .3em}
 
+/*here we are in the homepage*/
 .cadre{
   background-color: #26bf93;
   font-size: 100%;
   color: white;
   width:25%;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  border-radius:5px;
+}
+
+.cadrerestaurant{
+  background-color: #26bf93;
+  font-size: 100%;
+  color: white;
+  width:40%;
   padding-top: 0.4em;
   padding-bottom: 0.4em;
   border-radius:5px;
@@ -64,12 +75,14 @@ h1::after {margin-left: .3em}
 }
 /*here were are in the map*/
 #mapid { height: 750px; }
-.cadrerestaurant{
-  background-color: #26bf93;
-  font-size: 100%;
-  color: white;
-  width:40%;
-  padding-top: 0.4em;
-  padding-bottom: 0.4em;
-  border-radius:5px;
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-weight: bold;
+}
+
+.card-title{
+  font-weight: bold;
 }
