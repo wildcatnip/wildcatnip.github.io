@@ -1,4 +1,4 @@
-/*here we see style for slider*/
+/* here we see style for slider */
 .heading-box h2{ width:100%; color: red; }
 .text-box {
 	position: absolute;
@@ -31,10 +31,6 @@ footer a{
 footer a:hover {
   color: #26bf93;
   text-decoration: none;
-}
-
-li {
-  
 }
 
 .separate1 {
@@ -75,6 +71,11 @@ h1::after {margin-left: .3em}
   padding-top: 0.4em;
   padding-bottom: 0.4em;
   border-radius:5px;
+}
+
+iframe {
+  width: 100%;
+  height: 750px;
 }
 
 .cadrerestaurant{
@@ -120,7 +121,7 @@ h1{
 }
 
 .ll {
-  transition-property: background-color border border-radius;
+  transition-property: background-color border;
   transition-duration: 0.5s;
 }
 
@@ -149,4 +150,57 @@ font-weight: bold;
 
 .centerbutton {
   justify-content: center;
+}
+
+/* Here is the flip effect*/ 
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+background-color: transparent;
+width: 27.19em;
+height: 16.5em;
+border: 1px solid transparent;
+perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.8s;
+transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+background-color: #bbb;
+color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+font-family:'Montserrat', sans-serif;
+font-weight:bold;
+font-size: 1.5em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: white;
+color:#26bf93;
+transform: rotateY(180deg);
 }
